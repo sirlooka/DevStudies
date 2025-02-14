@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    border: solid white 5px;
+    width: 50%;
+    margin: 5% 25% 0% 25%;
+    padding: 0px;
+    height: 100%;
+}
+
+.image {
+    padding: 0px;
+    width: 50%  ;
+    margin: 0px;
+    width: 100%;
+
+}
+
+.box_testo {
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+p{
+    color: violet;
+}
