@@ -8,10 +8,20 @@ body {
 }
 .main {
   flex: 1;
+  display: inline-block;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  clear: left;
+  display: block;
+
 }
 
 footer {
@@ -19,3 +29,75 @@ footer {
   color: midnightblue;
 }
 
+img {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.card {
+  float: left;
+  margin: 1rem;
+  display: inline-block;
+  width: 40%;
+  padding: auto;
+}
+
+.h1_style {
+  color: #191970 ;
+  display: inline-block;
+}
+
+/* MOBILE RESPONSIVENESS cellu */
+
+@media (max-width: 800px) {
+  img {
+    width: 100%;
+    margin-right: 0;
+  }
+ 
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .card {
+    width: 300px;
+    display: block;
+    margin: 1em auto;
+  }
+
+  .left.card, .right.card {
+margin: 1em;    
+display: block;
+width: 100%;
+  }
+  h1 {
+    width: 100%;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+  }
+
+}
+
+/* MOBILE RESPONSIVENESS tablet */
+
+@media min-width: 768px and max-width: 1024px {
+
+    img {
+      width: 100%;
+      margin-right: 0;
+    }
+    .card {
+      display: block;
+    }
+    h1 {
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .left.card {
+      width: 100%;
+      display: block;
+    }
+  }
