@@ -1,0 +1,38 @@
+img {
+    border-radius: 22px;
+    height: 200px;
+    width: 200px;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#orange {
+    color: orange;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+    color: yellow;
+}
+
+
+.color-title {
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+
+/* per richiamare un id si usa #
+    per chiamare una classe si usa .
+    per chiamare un tag si usa il tag stesso
+*/
