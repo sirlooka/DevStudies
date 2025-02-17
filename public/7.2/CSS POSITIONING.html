@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<!-- LEZIONE SULLA POSIZIONE
+
+4 tipi di posizione: 
+- statica (static) : posizione di default
+- relativa (relative) : posizione relativa rispetto alla posizione in cui dovrebbe essere in origine
+- assoluta (absolute) : posizione assoluta rispetto all'ancestor CON UNA POSIZIONE SETTATA PIù VICINO oppure alla parte in alto a sx della pagina web (se nessun ancestor ha una posizione specificata)
+- fissa (fixed) : posizione relativa all'angolo in alto a sx della finestra browser (tipo header - rimane stickato in mezzo al cazzo)
+-->
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .red-circle {
+      border-radius: 50%;
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+
+    .blue-box {
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>

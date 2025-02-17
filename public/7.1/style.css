@@ -1,1 +1,37 @@
 /* Write your code here: */
+h1, h2 {
+  color: red;
+}
+
+.box > p { /* p è figlio della classe .box inserita nel div */
+  color: green;
+}
+
+div ul { /* li è figlio di ul che è figlio di div (logica dell'ancestor/discendant */
+  color: blue;
+}
+
+/* 
+
+si utilizza il punto per le classi ".done"
+si utilizza il cancelletto per gli id "#done"
+si utilizza il nome dell'elemento "h1"
+
+*/
+
+li.done {
+  color: seagreen;
+}
+
+ul p.done { /* ul è il nonno dell'elemento p con classe done, ho usato anche > ma si applica solo nel caso in cui ci sia padre-figlio, rapporto di discendenza diretto */
+  font-size: 2.5rem;
+}
+
+/* ora provo a fare con ancestor e li.done */
+
+div li.done {
+  color: purple;
+} /* in questo caso ho reso gli elementi della lista con classe done purple partendo dal nonno div*/
+
+/* MEGLIO USARE SEMPRE IL METODO ANCESTOR con lo spazio tra i vari elementi/gruppo(se concatenazione) */
+
