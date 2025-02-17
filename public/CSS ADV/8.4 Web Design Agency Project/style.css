@@ -43,6 +43,10 @@ img {
   padding: auto;
 }
 
+p.card {
+  text-align: justify;
+}
+
 .h1_style {
   color: #191970 ;
   display: inline-block;
